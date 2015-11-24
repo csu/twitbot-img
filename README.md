@@ -1,2 +1,2 @@
 # twitbot-img
-A [twitbot](csu/twitbot) module to return images depending on keywords.
+A [twitbot](https://github.com/csu/twitbot) module to return images depending on keywords.
