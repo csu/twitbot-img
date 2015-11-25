@@ -1,0 +1,6 @@
+image_folder = ''
+
+# image filename -> keywords
+images = {
+    'grin.jpg': ['grin', 'smirk']
+}
