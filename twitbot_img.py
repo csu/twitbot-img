@@ -1,4 +1,5 @@
 import os
+import random
 
 import config
 
@@ -10,6 +11,10 @@ def process_tweet(tweet_id, tweet_text, mentions, api):
             if keyword in tweet_text:
                 tweet_img = image
                 break
+
+    if config.default_random and tweet_img is None:
+        # we choose a random image
+        tweet_img = random.choice(config.images.keys())
 
     if tweet_img:
         tweet_img = os.path.join(config.image_folder, tweet_img)

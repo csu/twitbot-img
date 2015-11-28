@@ -1,4 +1,8 @@
-image_folder = ''
+image_folder = 'images/'
+
+# if enabled, a random image will be used if a
+# matching one cannot be found
+default_random = True
 
 # image filename -> keywords
 images = {
